@@ -4,12 +4,12 @@
 Summary:	Generic interface to multiple Ruby template engines
 Name:		rubygem-%{rbname}
 
-Version:	1.3.3
-Release:	3
+Version:	2.0.1
+Release:	1
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
 URL:		http://github.com/rtomayko/tilt/
-Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
+Source0:	http://gems.rubyforge.org/gems/tilt-2.0.1.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
 
@@ -42,14 +42,3 @@ Documents, RDoc & RI documentation for %{name}.
 
 %files doc
 %doc %{ruby_gemdir}/doc/%{rbname}-%{version}
-
-
-%changelog
-* Wed Feb 15 2012 Per Øyvind Karlsen <peroyvind@mandriva.org> 1.3.3-2
-+ Revision: 774161
-- mass rebuild of ruby packages against ruby 1.9.1
-
-* Mon Jan 23 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.3.3-1
-+ Revision: 766891
-- imported package rubygem-tilt
-
