@@ -8,7 +8,7 @@ Version:	1.3.3
 Release:	3
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
-URL:		http://github.com/rtomayko/tilt/
+URL:		https://github.com/rtomayko/tilt/
 Source0:	http://gems.rubyforge.org/gems/%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildArch:	noarch
